@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element type="combo">
+        <name>riskcountryselection</name>
+        <label lang="de">Für RiskRule gewählte Länder</label>
+        <label lang="en">Select Countries for RiskRule</label>
+        <store>Shopware.apps.Base.store.Country</store>
+        <options>
+            <multiSelect>true</multiSelect>
+        </options>
+        </element>
+    </elements>
+</config>

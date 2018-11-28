@@ -1,0 +1,1 @@
+This plugin adds a new risk rule "MNCountryRiskRule". When this rule is set to "1" the selected countries from the plugin configuration will be blocked for payment, when one of them is the selected invoice country.
